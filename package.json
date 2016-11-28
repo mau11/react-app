@@ -1,0 +1,20 @@
+{
+  "name": "react-app",
+  "version": "1.0.0",
+  "description": "creating a simple to do app with react",
+  "main": "app.js",
+  "scripts": {
+    "test": "live-server --open=./SpecRunner.html --port=8081",
+    "build": "babel . --out-dir compiled --presets=es2015,react --ignore=node_modules,compiled --source-maps inline",
+    "watch-build": "babel . --out-dir compiled --presets=es2015,react --ignore=node_modules,compiled --source-maps inline --watch"
+  },
+  "author": "mau",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "babel-core": "^6.18.2",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1"
+  }
+}
